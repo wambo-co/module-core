@@ -24,8 +24,7 @@ class JSONModuleStorage implements StorageInterface
     {
         try {
             $json = $this->filesystem->read($this->filename);
-        }
-        catch (FileNotFoundException $e)
+        } catch (FileNotFoundException $e)
         {
             $json = "{}";
         }

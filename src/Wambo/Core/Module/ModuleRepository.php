@@ -42,13 +42,13 @@ class ModuleRepository
     {
         $modules = array();
 
-        try{
+        try {
             $modulesData = $this->storage->read();
-        } catch(FileNotFoundException $e){
+        } catch (FileNotFoundException $e) {
             return [];
         }
 
-        foreach($modulesData as $moduleData)
+        foreach ($modulesData as $moduleData)
         {
             $modules[] = $this->mapper->getModule($moduleData);
         }

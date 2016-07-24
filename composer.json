@@ -1,0 +1,42 @@
+{
+  "name": "wambo/module-core",
+  "description": "The Wambo Core module provides all basic classes that are needed for a Wambo Project.",
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "René Penner",
+      "email": "rene@penner.name",
+      "role": "Developer"
+    },
+    {
+      "name": "Andy Koch",
+      "email": "andyk7@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Wambo\\Core\\": "src/Wambo/Core/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Wambo\\Core\\": "tests/Wambo/Core/"
+    }
+  },
+  "extra": {
+    "bootstrap": "Wambo\\Core\\Core"
+  },
+  "require": {
+    "slim/slim": "^3.0",
+    "league/flysystem": "^1.0",
+    "league/flysystem-memory": "^1.0"
+  },
+  "require-dev": {
+    "Composer/Composer": "^1.0",
+    "phpunit/phpunit": "5.4.*",
+    "squizlabs/php_codesniffer": "2.*",
+    "phpmd/phpmd" : "@stable"
+  }
+}

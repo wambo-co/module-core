@@ -31,7 +31,8 @@
   "require": {
     "slim/slim": "^3.0",
     "league/flysystem": "^1.0",
-    "league/flysystem-memory": "^1.0"
+    "league/flysystem-memory": "^1.0",
+    "php-di/slim-bridge": "^1.0"
   },
   "require-dev": {
     "Composer/Composer": "^1.0",

@@ -39,7 +39,7 @@ class App extends \DI\Bridge\Slim\App
     private function loadModules()
     {
         /** @var ModuleRepository $repo */
-        $repo = $this->getContainer()->get('module_repository');
+        $repo = $this->getContainer()->get(ModuleRepository::class);
 
         /** @var Module $module */
         foreach ($repo->getAll() as $module) {

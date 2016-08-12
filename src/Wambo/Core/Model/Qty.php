@@ -2,6 +2,7 @@
 
 namespace Wambo\Core\Model;
 
+use Wambo\Core\Model\Exception\QtyException;
 use Wambo\Core\ValueObject\ValueObjectInterface;
 
 class Qty implements ValueObjectInterface

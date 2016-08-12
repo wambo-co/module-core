@@ -32,7 +32,7 @@ class QtyTest extends TestCase
 
     /**
      * @test
-     * @expectedException \Wambo\Core\Model\QtyException
+     * @expectedException \Wambo\Core\Model\Exception\QtyException
      */
     public function testNegativQty()
     {

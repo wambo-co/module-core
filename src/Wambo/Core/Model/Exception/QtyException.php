@@ -1,5 +1,5 @@
 <?php
-namespace Wambo\Core\Model;
+namespace Wambo\Core\Model\Exception;
 
 use InvalidArgumentException;
 

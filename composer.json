@@ -17,12 +17,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "Wambo\\Core\\": "src/Wambo/Core/"
+      "Wambo\\Core\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Wambo\\Core\\": "tests/Wambo/Core/"
+      "Wambo\\Core\\": "tests/"
     }
   },
   "extra": {
